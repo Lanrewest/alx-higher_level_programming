@@ -6,4 +6,3 @@ for i in reversed(range(97, 123)):
     else:
         strtmp += chr(i-32)
 print("{}".format(strtmp), end="")
-
