@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 /**
@@ -7,7 +7,7 @@
  *@p: list
  *Return: number elements.
  */
-void print_python_list_info(PyObject *p)
+void print_python_list_info(Pyobject *p)
 {
 
 }
