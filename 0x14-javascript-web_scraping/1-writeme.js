@@ -9,6 +9,6 @@ fs.writeFile(filePath, contentToWrite, 'utf-8', (error) => {
     console.error(error);
     return;
   }
-  console.log(`Successfully wrote "${contentToWrite}" to ${filePath}.`);
+  console.log(`The file ${filePath} has been saved with the content: ${contentToWrite}`);
 });
 
